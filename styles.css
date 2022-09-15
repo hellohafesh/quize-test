@@ -185,6 +185,10 @@ button {
   margin-bottom: 30px;
 }
 
+.historyCard {
+  padding-left: 20px;
+}
+
 #modal-background {
   background: rgb(255, 255, 255);
   background: linear-gradient(92.49deg,
