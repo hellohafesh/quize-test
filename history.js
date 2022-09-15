@@ -30,7 +30,7 @@ function displayHistory() {
     newRow.classList.add("card");
 
     newRow.innerHTML = `
-  <h3>${test.questionText}</h3>
+  <h3 class="historyCard">${test.questionText}</h3>
   <p class="historyCard" >You took: <span class="bold">${test.timeTaken}</span> seconds</p>
     <p class="historyCard" >You made <span class="bold red">${test.errorCount}</span> mistakes</p>
   `;
